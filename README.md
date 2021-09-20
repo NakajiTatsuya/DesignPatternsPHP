@@ -16,7 +16,7 @@ Dockerイメージ:  [php:8.0.0alpha1-fpm](https://hub.docker.com/layers/i386/ph
 1 コンテナ  
 `$ docker-compose up -d`
 
-2 http://localhostでアクセス
+2 http://localhost でアクセス
 
 3 PHPUnit をインストールする
 `$ docker-compose exec php composer install`
