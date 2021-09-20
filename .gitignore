@@ -1,0 +1,5 @@
+**/vendor/
+db/data
+phpmyadmin/sessions/
+.DS_Store
+.env
