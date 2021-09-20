@@ -10,6 +10,9 @@ Dockerイメージ:  [php:8.0.0alpha1-fpm](https://hub.docker.com/layers/i386/ph
 
 ## はじめ方
 
+0 MySQLサーバーの起動
+`$ mysql.server start`
+
 1 コンテナ  
 `$ docker-compose up -d`
 
