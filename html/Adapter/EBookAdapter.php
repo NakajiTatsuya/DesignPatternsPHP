@@ -3,9 +3,9 @@
 namespace DesignPattern\Adapter;
 
 /**
- * BookインターフェースがEBookインターフェースをマージできない場合
- * Bookインターフェースをはめこんだアダプタークラスを用意して、EBookの依存性を注入することで
- * Ebookのための
+ * メソッドの名前が不適切などの理由から、BookインターフェースがEBookインターフェースをマージできない場合
+ * Bookインターフェースをはめこんだアダプタークラスをクライアントとして用意して、EBookの依存性を注入することで
+ * BookインターフェースがEBookインターフェースへの互換性を保つことができるようになる
  */
 class EBookAdapter implements Book
 {
