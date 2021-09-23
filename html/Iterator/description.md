@@ -1,5 +1,6 @@
 # 概要
-「反復」を意味し、繰り返し処理を行う一連の流れをパターン化したもの
+ Iteratorインターフェイスを実装したオブジェクトによる反復処理
+ 「iteratorオブジェクト」は集約オブジェクトを列挙する方法を記述するため(current,key,next,rewind,validメソッド)、クライアントは集約オブジェクトのデータ構造を知らなくても使い方だけ知って入れば良い。
 
 ## テスト
 docker-compose exec php composer test -- Iterator/Tests
